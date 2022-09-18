@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.keno{
+    display: flex;
+    height: 100vh;
+    padding: 20px;
+}
+.input_div{
+    display: flex;
+    flex-direction: column;
+
+}
+.numbers{
+
+    width: 50%;
+    text-align: center;
+    margin: 0px auto 15px auto;
+}
+.all_div{
+ width: 15%;  
+ height: 60%;
+ border: 0.5px solid black; 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.all_items{
+    border: 0.5px solid black;
+    /* margin-left: 10%; */
+    margin: 0px 5%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    text-align: center;
+
+    width: 60%;
+    height: 60%;
+}
+.items{
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.points {
+    width: 15%;
+    height: 60%;
+    border: 0.5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#play, #compare , #newGame, #restart , #money{
+    width: 50%;
+    margin: 10px auto;
+}
+#balance {
+    width: 90%;
+    height: 20%;
+    border: 0.5px solid black;
+    text-align: center;
+    padding: auto;
+}
+#money {
+    text-align: center;
+}
