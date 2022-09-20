@@ -9,16 +9,16 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="keno">
+<section class="keno">
     <div class="all_div">
         <div class="input_div">
-            <input type="number" id="first_number" class="numbers" >
-            <input type="number"id="second_number" class="numbers"  >
-            <input type="number" id="third_number" class="numbers"  >
+            <input type="number" id="first_number" class="numbers" min="1" max="40" value="1">
+            <input type="number"id="second_number" class="numbers" min="1" max="40" value="2" >
+            <input type="number" id="third_number" class="numbers"  min="1" max="40" value="3">
         </div>
-        <input type="text" placeholder="money" id="money">
+        <input type="number" placeholder="money" id="money"min="1" >
         <button id="play">Play</button>
-        <button id="compare">Compare</button>
+       
     </div>
 
     <section class="all_items">
@@ -64,12 +64,11 @@
         <div class="items">40</div>
     </section>
 <div class="points">
-   
     <div id="balance">Balance</div>
     <button id="newGame">New Game</button>
      <button id="restart">Restart</button>
 </div>
-    
+<div id="display">Select the numbers and Money</div>
 </section>
 </body>
 </html>
